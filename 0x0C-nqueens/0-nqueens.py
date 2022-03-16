@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-	The N queens puzzle is the challenge of placing N non-attacking
-	queens on an N×N chessboard.
-	Write a program that solves the N queens problem.
+    The N queens puzzle is the challenge of placing N non-attacking
+    queens on an N×N chessboard.
+    Write a program that solves the N queens problem.
 """
 
 import sys
@@ -27,7 +27,7 @@ def print_board(board):
 
 def isSafe(board, row, col, number):
     """ isSafe
-    	True of False
+        True of False
     """
 
     # Check this row in the left side
@@ -48,8 +48,8 @@ def isSafe(board, row, col, number):
 
 
 def solveNQUtil(board, col, number):
-    """ 
-	Auxiliar method to find the posibilities of answer
+    """
+        Auxiliar method to find the posibilities of answer
     """
 
     if (col == number):
