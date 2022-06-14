@@ -1,9 +1,9 @@
 #include "search.h"
 
 /**
- * linear_skip - searches for a value in a sorted  list of integers
- * @list: pointer
- * @value: value
+ * linear_skip - searches for a value in a sorted skip list of integers
+ * @list: pointer to the head of the skip list to search in
+ * @value: value to search for
  *
  * Return: Pointer on the first node where value is located or NULL
  */
